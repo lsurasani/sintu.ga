@@ -1,0 +1,23 @@
+
+ol,p{
+
+ color: #fff;
+ font-size: 25px;
+}
+body{
+  background-image: url("file:///Users/sintayehumekonnen/Documents/GitHub/sintu.ga/sprint-02/background-img.jpg");
+}
+img{
+  height: 100px;
+  height: 100px;
+}
+h1{
+  text-align: center;
+  color: #6600ff;
+}
+a{
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
