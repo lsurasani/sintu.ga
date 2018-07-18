@@ -1,23 +1,41 @@
 
 ol,p{
 
- color: #fff;
- font-size: 25px;
+ color: #e6e6e6;
+ font-size: 20px;
 }
 body{
   background-image: url("background-img.jpg");
 }
 img{
-  height: 100px;
-  height: 100px;
+  height: 120px;
+  width: 100px;
 }
 h1{
   text-align: center;
-  color: #6600ff;
+  color: #009999;
 }
 a{
   display: block;
-  color: #fff;
+  color: #444;
   font-size: 30px;
   text-decoration: none;
+}
+#mypage{
+  margin-top: 300px;
+  float: right;
+  color: rgb(0,250,100);
+}
+ li{
+  display: inline-block;
+  margin: 20px;
+}
+nav{
+  background-color: #b3b3b3;
+}
+.active {
+    background-color: #00ffff;
+}
+li a:hover{
+  background-color: #ff1a1a;
 }
