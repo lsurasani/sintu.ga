@@ -1,41 +1,83 @@
 
+
+.picture{
+  display: inline-grid;
+  width: 325px;
+  height: 300px;
+  margin: 20px;
+  padding-left: 20px;
+
+
+}
+h2,h1{
+  text-align: center;
+  font-style: oblique;
+  font-size: 50px;
+  font-weight: 600;
+  color: #4d4dff;
+}
 ol,p{
 
- color: #e6e6e6;
  font-size: 20px;
+
 }
-body{
-  background-image: url("background-img.jpg");
+table.links{
+  background-color: green;
 }
-img{
+.myimg{
   height: 120px;
   width: 100px;
+  border-radius: 10px;
 }
-h1{
-  text-align: center;
-  color: #009999;
+.container{
+  background-color: #ccffee;
+  padding-bottom: 20px;
 }
 a{
-  display: block;
-  color: #444;
+  color: #ffffff;
   font-size: 30px;
   text-decoration: none;
 }
-#mypage{
+.mypage{
   margin-top: 300px;
   float: right;
   color: rgb(0,250,100);
 }
  li{
-  display: inline-block;
   margin: 20px;
+
+}
+.menu > li{
+    display: inline-block;
 }
 nav{
-  background-color: #b3b3b3;
+  background-color: #444;
 }
 .active {
     background-color: #00ffff;
 }
 li a:hover{
   background-color: #ff1a1a;
+}
+.contact{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 20px;
+
+}
+th{
+  text-align: center;
+  font-style: oblique;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+tr{
+  display: grid;
+  grid-row: auto;
+  background-color: #ff1a1a;
+  padding-left: 40px;
+
+
 }
