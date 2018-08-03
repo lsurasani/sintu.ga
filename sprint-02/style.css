@@ -2,17 +2,48 @@
 
 .picture{
   display: inline-grid;
-  width: 325px;
-  height: 300px;
-  margin: 20px;
-  padding-left: 20px;
+  width: 500px;
+  height: 400px;
+  margin: 30px;
+
 }
+.discription{
+text-align: center;
+font-style: oblique;
+font-weight: bolder;
+font-size: 20px;
+
+}
+
+.picture-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ padding-bottom: 20px;
+ justify-content: center;
+}
+.row-left{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 240px;
+}
+.row-center{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+.row-right{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-right: 240px;
+}
+
 h2,h1{
   text-align: center;
   font-style: oblique;
   font-size: 50px;
   font-weight: 600;
   color: #4d4dff;
+
 }
 ol,p{
  font-size: 20px;
@@ -26,22 +57,27 @@ table{
 .myimg{
   height: 120px;
   width: 100px;
-  border-radius: 10px;
+  border-radius: 50%;
 }
-.story{
-  background-color: #ccffee;
+
+.mystory{
   padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.story1{
+    border: 1px solid #6600ff;
+}
+.story2{
+    border: 1px solid #6600ff;
 }
 a{
   color: #ffffff;
   font-size: 30px;
   text-decoration: none;
 }
-.mypage{
-  margin-top: 300px;
-  float: right;
-  color: rgb(0,250,100);
-}
+
  li{
   margin: 20px;
 
@@ -76,13 +112,11 @@ th, td{
 tr:nth-child(even) {
     background-color: #ffffcc;
 }
+
 .row1{
   text-align: center;
   padding-bottom: 20px;
-}
-.row2{
   text-align: center;
-  padding-bottom: 20px;
 }
 .row1 > h4{
   text-decoration: underline;
