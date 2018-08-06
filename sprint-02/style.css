@@ -1,10 +1,10 @@
 
-
 .picture{
   display: inline-grid;
-  width: 500px;
-  height: 400px;
+  width: 316px;
+  height: 282px;
   margin: 30px;
+
 
 }
 .discription{
@@ -14,17 +14,17 @@ font-weight: bolder;
 font-size: 20px;
 
 }
-
 .picture-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
- padding-bottom: 20px;
- justify-content: center;
+  /* padding-bottom: 20px; */
+  /* padding-right: 55px; */
+  justify-content: center;
 }
 .row-left{
   display: grid;
   grid-template-columns: 1fr;
-  padding-left: 240px;
+  padding-left: 610px;
 }
 .row-center{
   display: grid;
@@ -34,16 +34,22 @@ font-size: 20px;
 .row-right{
   display: grid;
   grid-template-columns: 1fr;
-  padding-right: 240px;
+  padding-right: 554px;
 }
-
-h2,h1{
+.container > h2{
   text-align: center;
   font-style: oblique;
   font-size: 50px;
   font-weight: 600;
   color: #4d4dff;
+}
 
+h2,h1{
+  text-align: center;
+  font-style: oblique;
+  font-size: 30px;
+  font-weight: 600;
+  color: #4d4dff;
 }
 ol,p{
  font-size: 20px;
@@ -53,41 +59,63 @@ table{
   font-weight: bold;
   font-style: italic;
   margin: 40px;
+
 }
 .myimg{
   height: 120px;
   width: 100px;
   border-radius: 50%;
+  align-items: center;
+  padding-top: 10px;
 }
-
 .mystory{
-  padding-bottom: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 0px 225px 0px 225px;
 
 }
 .story1{
-    border: 1px solid #6600ff;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-style: double;
+    border-color: #9900cc;
+    border-width: thick;
+    padding-left: 20px;
 }
 .story2{
-    border: 1px solid #6600ff;
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  border-style: double;
+  border-color: #9900cc;
+  border-width: thick;
+
 }
+div > h4{
+  text-align: left;
+  font-style: oblique;
+  font-weight: 600;
+}
+.story2 > h4{
+  text-align: center;
+  font-style: oblique;
+  font-weight: 600;
+}
+
 a{
   color: #ffffff;
   font-size: 30px;
   text-decoration: none;
 }
 
- li{
-  margin: 20px;
-
-}
 .menu > li{
-    display: inline-block;
-    max-width: 100%;
+  display: grid;
+  display: inline-grid;
+  max-width: 100%;
+  margin: 20px;
 }
 nav{
-  display: inline-block;
+padding-left: 20px;
+  display: inline-grid;
   width: 100%;
   background-color: #444;
 }
@@ -112,15 +140,26 @@ th, td{
 tr:nth-child(even) {
     background-color: #ffffcc;
 }
-
+.resume-container{
+  padding-left: 30px;
+}
 .row1{
   text-align: center;
-  padding-bottom: 20px;
+  padding: 20px;
   text-align: center;
 }
+.row1 > h2{
+  text-align: center;
+  font-style: oblique;
+  font-size: 30px;
+  font-weight: 600;
+  color: #444;
+}
 .row1 > h4{
+  text-align: center;
   text-decoration: underline;
   font-style: italic;
+  color: #4d4dff;
 }
 .row2 > h4{
   text-decoration: underline;
