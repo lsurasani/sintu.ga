@@ -1,8 +1,40 @@
 
+.container{
+  width: 100%;
+}
+
+a{
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.menu > li{
+  display: inline-grid;
+  margin-left: 20px;
+
+}
+nav{
+  display: inline-grid;
+  width: 100%;
+  background-color: #444;
+  height: 50px;
+}
+.active {
+    background-color: #00ffff;
+}
+li a:hover{
+  background-color: #ff1a1a;
+}
+.picture-container{
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+  height: 900px;
+}
 .picture{
-  width: 230px;
+  width: 260px;
   height: 220px;
-  margin: 30px;
+  margin: 5px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -11,72 +43,25 @@
   font-style: oblique;
   font-size: 20px;
   font-weight: 600;
-  padding-left: 85px;
+  padding-left: 105px;
 
-}
-.picture-container{
-  display: grid;
-  grid-template-columns: 35% 30% 35%;
-  padding: 80px 80px 0px 80px;
-  height: 85%;
-
-}
-.container{
-  background-color: #00ffcc;
-  width: 100%;
-
-}
-footer{
-  background-color: #004d4d;
-  height: 25%;
-  padding: inherit;
-  width: 100%;
-}
-
-footer > h3{
-  font-style: normal;
-  text-align: left;
-  color: black;
-  font-size: 25px;
-  padding-top: 65px;
-  padding-left: 30px;
-
-}
-.footnote{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.footer-left{
- display: grid;
- grid-template-columns: 1fr;
- padding-top: 60px;
- padding-left: 30px;
-
-}
-.footer-right {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-.footer-right > ul > li{
-  font-size: 25px;
 }
 .row-left{
-  display: grid;
+  display: inline-block;
   grid-template-columns: 35%;
-  height: 100%;
-  background-color:  #f20366;
+  background-color:  #66ccff;
+  height: 900px;
 }
 .row-center{
   display: inline-block;
   grid-template-columns: 30%;
-  height: 100%;
+  height: 750px;
 }
-
 .row-right{
-  display: grid;
+  display: inline-block;
   grid-template-columns: 35%;
-  height: 100%;
-  background-color:  #f20366;
+  background-color:  #66ccff;
+  height: 900px;
 
 }
  .row-center > h2{
@@ -87,7 +72,30 @@ footer > h3{
   margin-left: auto;
   margin-right: auto;
   color: #4d4dff;
-
+}
+.new {
+  position: absolute;
+  padding-left: 180px;
+  color: #ff9900;
+  font-size: 32px;
+  margin-top: -30px;
+}
+.introduction{
+  width: 100%;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: auto;
+  padding-top: 50px;
+  line-height: 1.5;
+}
+.row-right > h5{
+  font-size: 200px;
+  text-align: center;
+}
+span{
+  font-weight: 600;
+  font-size: 25px;
+  font-style: oblique;
 }
 h1{
   text-align: center;
@@ -96,6 +104,7 @@ h1{
   font-weight: 600;
   color: #d90026;
 }
+
 ol,p{
  font-size: 20px;
 }
@@ -114,6 +123,8 @@ table{
   margin-left: auto;
   margin-top: 20px;
 }
+
+}
 .mystory{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -123,9 +134,10 @@ table{
     display: grid;
     grid-template-columns: 1fr;
     border-style: double;
-    border-color: #9900cc;
+    border-color: #ff0066;
     border-width: thick;
     padding-left: 20px;
+    line-height:  1.5;
 }
 .story2{
   display: inline-grid;
@@ -133,6 +145,7 @@ table{
   border-style: double;
   border-color: #ff0066;
   border-width: thick;
+  line-height: 1.5;
 
 }
 div > h4{
@@ -146,27 +159,6 @@ div > h4{
   font-weight: 600;
 }
 
-a{
-  color: #ffffff;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-.menu > li{
-  display: inline-grid;
-  margin: 20px;
-}
-nav{
-  display: inline-grid;
-  width: 100%;
-  background-color: #444;
-}
-.active {
-    background-color: #00ffff;
-}
-li a:hover{
-  background-color: #ff1a1a;
-}
 .link{
   background-image: url("backimge-3.jpg");
   padding-top: 1px;
@@ -231,4 +223,36 @@ tr:nth-child(odd) {
 }
 .friendlink{
   color: #444;
+}
+footer{
+  background-color: #ccccff;
+  padding: inherit;
+  width: 100%;
+  height: 200px;
+
+}
+
+footer > h3{
+  font-style: normal;
+  text-align: left;
+  color: black;
+
+}
+.footnote{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer-left{
+ display: grid;
+ grid-template-columns: 1fr;
+ padding-top: 60px;
+ padding-left: 30px;
+
+}
+.footer-right {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.footer-right > ul > li{
+  font-size: 20px;
 }
