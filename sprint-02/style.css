@@ -1,14 +1,15 @@
 
 a{
-  color: #ffffff;
   font-size: 20px;
   text-decoration: none;
+  color: #ffffcc;
 }
-
+.home-container > a{
+  color: #ffffcc;
+}
 .col-sm-12 > li{
   display: inline-grid;
   margin-left: 20px;
-
 }
 nav{
   display: inline-grid;
@@ -37,9 +38,8 @@ li a:hover{
   margin-left: 100px;
 }
 figcaption{
-
   text-align: center;
-
+  font-weight: 600;
 }
 .btn-details{
   margin: 60px 0px 0px 150px;
@@ -74,27 +74,32 @@ figcaption{
 }
 aside{
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
   font-style: italic;
   color: #0000ff;
-  margin-left: 95px;
+  margin-left: 55px;
 }
 
-.col-sm-4 > h1{
+.col-sm-4 > h1,h2{
     text-align: center;
     font-style: oblique;
     font-size: 30px;
     font-weight: 600;
     color: #0000ff;
-    padding-top: 30px;
 }
-
 h1{
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0000ff;
+}
+.col-sm-4 > h2{
   text-align: center;
   font-style: oblique;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
-  color: #d90026;
+  color: #444;
 }
 
 ol,p{
@@ -152,9 +157,7 @@ div > h4{
   font-size: 20px;
   background-color: #ff0000;
   border-radius: 15px;
-  color: #d9d9ff;
 }
-
 .contact{
   color: #444;
   font-size: 25px;
@@ -191,18 +194,12 @@ tr:nth-child(odd) {
 }
 footer{
   background-color: #ccccff;
-  padding: inherit;
-  width: 100%;
-
 }
 
-footer > h3{
+.footer-container > h3{
   font-style: normal;
-  text-align: left;
-  color: black;
-
 }
-.footnote{
+ .foot-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
