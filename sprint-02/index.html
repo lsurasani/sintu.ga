@@ -2,12 +2,14 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link href="style.css" type="text/css" rel="stylesheet"/>
   <title>Home page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="style.css" type="text/css" rel="stylesheet"/>
   </head>
-<div class="container">
+  <body>
+    <div class="home-container">
 <nav>
-  <ul class="col-xs-12">
+  <ul class="col-sm-12">
     <li><a href="index.html" class="active" href="#Home">Home</a></li>
     <li><a href="about.html">About Me</a></li>
     <li><a href="links.html">Links</a></li>
@@ -15,44 +17,42 @@
     <li><a href="contact.html">Contact</a></li>
 </ul>
 </nav>
-  <div class=" picture-container">
-    <div class="col-xs-5">
-        <img src="Sintayehu.jpg" class="welcome">
-        <img src="welcome.gif" class="welcomeimg">
-        <h1 class="new">To My New Website!</h1>
-        <p class="introduction">My name is Sintayehu. I'm a Front-End beginner Developer.
-          I'm open-minded, ready to learn new skills and from others, flexible, good communication skill, and face several environments.
-          I'm eager to learn more about computers. I teach myself to solve problems, and I know, how can I get help.
-          Also, I will be graduate from Georgia Piedmont Technical College for a major in Computer Support Specialist for next month.
-          Programming and Web developing are my entire goal.</p>
+ <div class="row">
+   <div class="col-sm-4">
+     <img src="welcome.gif" class="welcomeimg">
 
-        <span>Thank you for visiting my website!!</span>
+     <h1 class="new-website">To My New Website!</h1>
+     <p class="introduction"><img src="Sintayehu.jpg" class="imageme"><br>
+       My name is Sintayehu. I'm a Front-End beginner Developer. I'm open-minded, ready to learn new skills and from others, flexible, good communication skill, and face several environments.
+       I'm eager to learn more about computers. I teach myself to solve problems, and I know, how can I get help.
+       Also, I will be graduate from Georgia Piedmont Technical College for a major in Computer Support Specialist for next month.
+       Programming and Web developing are my entire goal.</p><br>
+       <span>Thank you for visiting my website!!</span>
+   </div>
+   <div class="col-sm-4">
+       <img src="dress.jpg" class="picture">
+       <div class="discription">Cultural Dresses</div>
+       <img src="coffee.jpg" class="picture">
+       <div class="discription">Coffee Ceremony</div>
+       <img src="food.jpg" class="picture">
+       <div class="discription">Culture food</div>
     </div>
-        <div class="col-xs-2">
-          <h2>Ethiopian Culture</h2>
-      <img src="dress.jpg" class="picture">
-      <h3 class="discription">Cultural Dresses</h3>
-      <img src="coffee.jpg" class="picture">
-      <h3 class="discription">Coffee Ceremony</h3>
-      <img src="food.jpg" class="picture">
-      <h3 class="discription">Culture food</h3>
+  <div class="col-sm-4">
+       <img src="lalibela.jpg" class="picture">
+       <div class="discription">Culture food</div>
+       <img src="newyear.png" class="picture">
+       <div class="discription">Coffee Ceremony</div>
+       <img src="Meskel.jpg" class="picture">
+       <div class="discription">Coffee Ceremony</div>
 
-        </div>
-
-       <div class="col-xs-5">
-
-        <canvas id="myCanvas" width="150px" height="200px"></canvas>
-        <img id="city" src="addis_ababa.jpg" width="525px;" height="450px;">
-        <p class="bottom-left">Lalibela Church</p>
-      </div>
-  </div>
-
+   </div>
+ </div>
 </div>
 <footer class="footnote" >
-  <div class="col-xs-6">
+  <div class="col-sm-6">
     <h3>Copyright© 2018 by Sintu</h3>
   </div>
-<div class="col-xs-6">
+<div class="col-sm-6">
   <ul>
     <h2>Contact Me </h2>
     <li>linkedin</li>
@@ -64,14 +64,7 @@
 </div>
 </footer>
 <script type="text/javascript">
-function myCanvas() {
-      var c = document.getElementById('myCanvas')
-      var c = canvas.getContext('2d');
-      c.fillText("Hello Ethiopia!")
-      var img = document.getElementById('city');
-      var img = canvas.getContext('2d');
-       img.drawImage(img);
-    }
+
 </script>
 </body>
 </html>
