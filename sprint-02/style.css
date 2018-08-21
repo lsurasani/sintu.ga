@@ -31,11 +31,14 @@ li a:hover{
   background-color: #ffffcc;
 
 }
-
+.middle >h3{
+  text-align: center;
+  font-style: italic;
+}
 .picture{
   width: 315px;
   height: 310px;
-  margin: 30px;
+  margin: 20px 0 10px 40px;
 }
 .pic{
   width: 265px;
@@ -45,9 +48,10 @@ li a:hover{
 figcaption{
   text-align: center;
   font-weight: 600;
+  font-style: italic;
 }
 .btn-details{
-  margin: 60px 0px 0px 150px;
+  margin: 60px 0px 30px 140px;
   background-color: #33cc33;
   border-radius: 10px;
 }
@@ -106,22 +110,23 @@ ol,p{
   margin-left: auto;
   margin-top: 20px;
 }
-.story-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 20px;
+.about-container{
+
+  margin: 50px;
 }
 .story-left{
+
     border-style: solid;
     border-color: #ff0066;
-    border-width: thick;
+    border-width: thin;
     padding-left: 20px;
     line-height:  1.5;
 }
 .story-right{
+
   border-style: solid;
   border-color: #ff0066;
-  border-width: thick;
+  border-width: thin;
   line-height: 1.5;
   padding-left: 20px;
 }
@@ -230,7 +235,7 @@ input[type=text], textarea {
 }
 
 input[type=submit] {
-    background-color: rgba(0, 150, 210);
+    background-color: rgba(0, 120, 250);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -247,14 +252,15 @@ input[type=submit]:hover {
 .footer-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
-   background-color: #ccccff;
+   background-color: rgb(130, 160,138);
    padding: 20px;
    margin-top: 20px;
 }
 .footer-container h3{
   font-style: normal;
   font-size: 20px;
+
 }
 .contact{
-  color: #444;
+  color: rgb(2, 1, 5);
 }
