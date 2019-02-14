@@ -26,9 +26,13 @@ li a:hover{
   background-color: #cc0066;
   text-decoration: none;
 }
+
 .home-container{
 
-  background-color: #ffffcc;
+  font-family: Snapchat;
+  background: #fffc00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .middle >h3{
@@ -50,14 +54,15 @@ figcaption{
   font-weight: 600;
   font-style: italic;
 }
-.btn-details{
-  margin: 60px 0px 30px 140px;
+button{
+  margin: 30px 0px 10px 150px;
   background-color: #33cc33;
   border-radius: 10px;
 }
-button[type=button]:hover{
-   background-color: #cc0066;
+button:hover {
+   background-color: #3333ff;
 }
+
  h2{
   text-align: center;
   font-style: oblique;
@@ -136,29 +141,23 @@ ol,p{
   font-style: oblique;
   font-weight: 600;
 }
+
 .resume-container{
   display: grid;
-  grid-template-columns: 1fr;
-  background-image: url("pexels-photo-new.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.download{
-  margin: 80%;
-  margin: auto;
-  margin-bottom: 250px;
+  font-family: Forever Lost;
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
 .btn-download{
   font-weight: bolder;
   font-size: 20px;
   background-color: #ff0000;
   border-radius: 15px;
-  margin-top: 155px;
-  padding: 20px;
-}
-.btn-download > a{
-  color: #1d0202;
+  display: grid;
+  margin: 200px auto;
 }
 .link-container{
   display: grid;
@@ -169,17 +168,21 @@ ol,p{
 
 }
 .link-page{
-  background-color: rgba(205, 255, 255, 0.7);
-  background-size: contain;
-  background-repeat: no-repeat;
+  font-family: Orca;
+  background: #44A08D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
 .link{
- color: #444;
+ color: #cc99ff;
 
 }
-
+.row{
+  margin: 20px auto;
+}
 table{
   font-size: 25px;
   border: 1px solid #ff99cc;
@@ -192,11 +195,12 @@ th{
 
 td{
   border: 1px solid #dddddd;
+  color: #ffffcc;
 
 }
 
 tr:nth-child(even) {
-    background-color: #ffffcc;
+    background-color: #444;
 
 }
 tr:hover {
@@ -205,10 +209,10 @@ tr:hover {
 
 
 .contact-page{
-  background-color: rgba(0, 150, 210, 0.3);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
+    font-family: Decent;
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .contact-container{
@@ -248,11 +252,18 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #cc0066;
 }
+.footer-container{
+  font-family: Monta Carlo;
+  background: #CC95C0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+
+}
 .footer-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
-   background-color: rgb(130, 160,138);
+   /*background-color: rgb(130, 160,138);*/
    padding: 20px;
    margin-top: 20px;
 }
@@ -263,4 +274,8 @@ input[type=submit]:hover {
 }
 .contact{
   color: rgb(2, 1, 5);
+}
+.contact:hover{
+  background-color: #cc0066;
+ 
 }
