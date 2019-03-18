@@ -1,0 +1,40 @@
+
+body{
+  background: #304352;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+thead th {
+  font-weight: 400;
+  background: #d6b256;
+  color: #FFF;
+  text-align: center;
+}
+
+tr {
+  background: #fff2cc;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+tr:nth-child(even) {
+  background: #ffdd00;
+}
+
+th, td {
+  font-weight: 200;
+  text-align: left;
+  padding: 18px;
+ }
